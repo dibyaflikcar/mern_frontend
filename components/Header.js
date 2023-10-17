@@ -149,7 +149,7 @@ export default function Header() {
             ))} */}
               <Link href="/"><Button onClick={handleCloseNavMenu}  sx={{ my: 2, color: "white", display: "block" }}>Home</Button></Link>
               <Link href="/products"><Button onClick={handleCloseNavMenu}  sx={{ my: 2, color: "white", display: "block" }}>Products</Button></Link>
-              <Link href="/about"><Button onClick={handleCloseNavMenu}  sx={{ my: 2, color: "white", display: "block" }}>About Us</Button></Link>
+              <Link href="/aboutus"><Button onClick={handleCloseNavMenu}  sx={{ my: 2, color: "white", display: "block" }}>About Us</Button></Link>
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
